@@ -1,0 +1,110 @@
+
+a:link {color:#000000;} 
+a:visited {color:#000000;} 
+a:hover {color:#81d50d;} 
+a:active {color:#81d50d;} 
+
+#fancytable1 { 
+
+border-top-left-radius:15px 15px;
+-moz-border-radius-topleft:15px 15px; 
+border-radius-topleft:15px 15px; 
+border-top-right-radius:15px 15px; 
+-moz-border-radius-topright:15px 15px; 
+border-radius-topright:15px 15px; 
+
+font-family: Arial, Helvetica, sans-serif; 
+color: #222222; 
+border-collapse:collapse; 
+width:500px; 
+
+}
+
+#fancytable1 th { 
+padding:5px; 
+border-top-left-radius:15px 15px; 
+-moz-border-radius-topleft:15px 15px; 
+border-radius-topleft:15px 15px; 
+border-top-right-radius:15px 15px; 
+-moz-border-radius-topright:15px 15px; 
+border-radius-topright:15px 15px; 
+
+font-size: 1.3em; 
+text-align: center; 
+background: -moz-linear-gradient(bottom, #666666, #222222); 
+background: -webkit-linear-gradient(top, #666666, #222222); 
+background: -o-linear-gradient(top, #25168a,#222222); 
+background: linear-gradient(top, #250ea5, #222222); 
+
+color: #f4f5f2; 
+text-shadow: 2px 2px 2px #222222; 
+
+}
+
+#fancytable1 tr.alt1 td { 
+
+padding:5px; 
+
+font-size: 1.5em;
+text-align: center; 
+
+background: -moz-linear-gradient(bottom, #251584, #222222); 
+background: -webkit-linear-gradient(top, #253dc4, #222222); 
+background: -o-linear-gradient(top, #252890,#222222); 
+background: linear-gradient(top, #250e63, #222222); 
+
+color: #f9faf8; 
+text-shadow: 2px 2px 2px #222222; 
+
+}
+
+#fancytable1 tr.alt2 td {
+
+padding:5px; 
+
+border-bottom-left-radius:15px 15px; 
+-moz-border-radius-bottomleft:15px 15px; 
+border-radius-bottomleft:15px 15px; 
+border-bottom-right-radius:15px 15px; 
+-moz-border-radius-bottomright:15px 15px; 
+border-radius-bottomright:15px 15px;
+
+font-size: .75em; 
+text-align: center; 
+
+background: -moz-linear-gradient(bottom, #2a08ed, #222222); 
+background: -webkit-linear-gradient(top, #1b08ef, #222222); 
+background: -o-linear-gradient(top, #2704b0,#222222); 
+background: linear-gradient(top, #666666, #222222); 
+
+color: #81d50d; 
+text-shadow: 2px 2px 2px #222222; 
+
+}
+
+#fancytable1 td { 
+
+padding:5px; 
+background-color:#f0f0f0; 
+font-size: 1em; 
+text-align: center; 
+
+}
+
+#fancytable1 tr.alt td { 
+
+background-color: cccccc; 
+
+}
+
+#fancytable1 tr:hover td { 
+
+background: -moz-linear-gradient(bottom, #666666, #222222) !important; 
+background: -webkit-linear-gradient(top, #666666, #222222); 
+background: -o-linear-gradient(top, #666666,#222222); 
+background: linear-gradient(top, #666666, #222222); 
+color:#81d50d; 
+text-shadow: 2px 2px 2px #222222; 
+
+}
+
